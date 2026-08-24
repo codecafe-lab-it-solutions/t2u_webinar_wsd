@@ -208,7 +208,7 @@ export default function Hero17({
         >
           <a
             href="#"
-            className="inline-flex min-h-10 items-center text-xl font-medium tracking-[-0.03em] text-white transition-[opacity,transform] duration-200 ease-out hover:opacity-75 active:scale-[0.96]"
+            className="inline-flex min-h-10 shrink-0 items-center text-base font-medium tracking-[-0.03em] text-white transition-[opacity,transform] duration-200 ease-out hover:opacity-75 active:scale-[0.96] sm:text-xl"
           >
             {brandName}
           </a>
@@ -225,9 +225,9 @@ export default function Hero17({
             ))}
           </div>
 
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-2 sm:gap-5">
             <div
-              className="hidden items-center gap-2 text-sm font-medium sm:flex"
+              className="flex items-center gap-1 text-xs font-medium sm:gap-2 sm:text-sm"
               role="group"
               aria-label="Language / भाषा"
             >
@@ -235,7 +235,7 @@ export default function Hero17({
                 type="button"
                 onClick={() => onLocaleChange?.('en')}
                 aria-current={locale === 'en' ? 'true' : undefined}
-                className={`rounded-full px-2 py-1 transition-opacity duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400 ${
+                className={`rounded-full px-1.5 py-1 transition-opacity duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400 sm:px-2 ${
                   locale === 'en' ? 'text-white opacity-100' : 'text-white/70 opacity-70 hover:opacity-100'
                 }`}
               >
@@ -246,7 +246,7 @@ export default function Hero17({
                 type="button"
                 onClick={() => onLocaleChange?.('hi')}
                 aria-current={locale === 'hi' ? 'true' : undefined}
-                className={`rounded-full px-2 py-1 transition-opacity duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400 ${
+                className={`rounded-full px-1.5 py-1 transition-opacity duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400 sm:px-2 ${
                   locale === 'hi' ? 'text-white opacity-100' : 'text-white/70 opacity-70 hover:opacity-100'
                 }`}
               >
@@ -255,7 +255,7 @@ export default function Hero17({
             </div>
             <a
               href={navCtaHref}
-              className="group/nav-cta inline-flex min-h-10 items-center justify-center gap-2 rounded-full bg-linear-to-b from-brand-600 to-brand-900 px-4 text-sm font-medium text-white outline-2 -outline-offset-2 outline-white/20 transition-[background-image,transform] duration-200 ease-out hover:from-brand-700 hover:to-brand-950 active:scale-[0.96] focus-visible:outline-accent-400"
+              className="group/nav-cta inline-flex min-h-10 shrink-0 items-center justify-center gap-2 rounded-full bg-linear-to-b from-brand-600 to-brand-900 px-3 text-xs font-medium text-white outline-2 -outline-offset-2 outline-white/20 transition-[background-image,transform] duration-200 ease-out hover:from-brand-700 hover:to-brand-950 active:scale-[0.96] focus-visible:outline-accent-400 sm:px-4 sm:text-sm"
             >
               {navCtaLabel}
             </a>
