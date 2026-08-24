@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+/* Tokens from design.md §2 — Tailwind v4 CSS-first theme config */
+@theme {
+  --color-brand-50: #fff1f5;
+  --color-brand-100: #ffe1ea;
+  --color-brand-200: #ffc2d6;
+  --color-brand-300: #ff94b8;
+  --color-brand-400: #fb5f95;
+  --color-brand-500: #f22e72;
+  --color-brand-600: #dc1660;
+  --color-brand-700: #b80f4e;
+  --color-brand-800: #8f0f40;
+  --color-brand-900: #6b1236;
+  --color-brand-950: #3d0a1e;
+
+  --color-accent-300: #ffd580;
+  --color-accent-400: #ffb020;
+  --color-accent-500: #f59e0b;
+  --color-accent-600: #d97706;
+
+  --color-cream-50: #fffaf5;
+  --color-cream-100: #fff3ea;
+  --color-ink-700: #4a3f4f;
+  --color-ink-800: #33283a;
+  --color-ink-900: #241b2f;
+
+  --font-sans: var(--font-latin), var(--font-devanagari), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-cream-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+}
