@@ -95,6 +95,11 @@ export interface SiteContent {
     items: string[];
     note: string;
   };
+  whatsappCommunity: {
+    heading: string;
+    supporting: string;
+    cta: string;
+  };
   registration: {
     heading: string;
     supporting: string;

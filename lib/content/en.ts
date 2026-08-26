@@ -138,6 +138,12 @@ export const en: SiteContent = {
     ],
     note: 'Webinar recording and certificate are listed only if actually provided for this session.',
   },
+  whatsappCommunity: {
+    heading: 'Join Our WhatsApp Community',
+    supporting:
+      'Get webinar updates, reminders, and connect with other participants — free to join, open to everyone.',
+    cta: 'Join WhatsApp Community',
+  },
   registration: {
     heading: 'Ready to Take the First Step?',
     supporting:

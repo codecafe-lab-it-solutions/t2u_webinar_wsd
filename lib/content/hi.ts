@@ -138,6 +138,11 @@ export const hi: SiteContent = {
     ],
     note: 'Webinar recording और certificate केवल तभी list किए जाते हैं जब वे इस session के लिए actually provide किए जा रहे हों।',
   },
+  whatsappCommunity: {
+    heading: 'हमारी WhatsApp Community से जुड़ें',
+    supporting: 'Webinar updates, reminders पाएं और दूसरे participants से जुड़ें — बिल्कुल free, सबके लिए open।',
+    cta: 'WhatsApp Community Join करें',
+  },
   registration: {
     heading: 'क्या आप अपना पहला Step लेने के लिए Ready हैं?',
     supporting:
