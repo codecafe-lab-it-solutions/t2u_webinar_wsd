@@ -18,7 +18,6 @@ export const hi: SiteContent = {
       { label: 'माध्यम', value: 'Live Online Webinar' },
       { label: 'भाषा', value: 'Hindi + English' },
       { label: 'Level', value: 'Beginner Friendly' },
-      { label: 'Certificate/Bonus', value: '[यदि उपलब्ध हो]' },
     ],
   },
   whyImportant: {
@@ -52,12 +51,9 @@ export const hi: SiteContent = {
     heading: 'इस Webinar में आप क्या सीखेंगी?',
     items: [
       { title: 'Identify Valuable Skills', description: 'आज के job market के लिए practical और valuable skills को कैसे identify करें।' },
-      { title: 'Choose the Right Skill', description: 'अपनी interest और goals के आधार पर सही skill कैसे choose करें।' },
       { title: 'Digital Skills', description: 'Digital skills career और work-from-home opportunities कैसे create कर सकती हैं।' },
       { title: 'Communication & Confidence', description: 'Professional communication और confidence कैसे build करें।' },
-      { title: 'Career Preparation', description: 'Jobs, interviews, freelancing या entrepreneurship के लिए खुद को कैसे prepare करें।' },
       { title: 'Turn Skills Into Opportunities', description: 'सीखी हुई skill को practical opportunity में कैसे बदलें।' },
-      { title: 'Create a Learning Path', description: 'एक साथ सब कुछ सीखने की कोशिश करने के बजाय realistic learning path कैसे बनाएं।' },
     ],
   },
   framework: {

@@ -5,7 +5,7 @@ export function WhatYouLearn({ content }: { content: SiteContent['learn'] }) {
   return (
     <Section id="learn" tone="tint">
       <SectionHeading className="mx-auto text-center">{content.heading}</SectionHeading>
-      <ol className="mx-auto mt-10 grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <ol className="mx-auto mt-10 grid max-w-3xl gap-5 sm:grid-cols-2">
         {content.items.map((item, i) => (
           <li key={item.title} className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-brand-100">
             <span className="text-xs font-mono font-medium text-brand-600">

@@ -7,7 +7,7 @@ import { AnnouncementBar, EventInfo } from '@/components/sections/announcement-e
 import { WhyImportant, ProblemSection, LifeTransitions } from '@/components/sections/intro-sections';
 import { WhatYouLearn, SkillFramework, PracticalExamples } from '@/components/sections/learning-sections';
 import { IntroVideo, WhoShouldAttend } from '@/components/sections/video-audience';
-import { Transformation, TrainerIntro, Testimonials, Bonuses } from '@/components/sections/transformation-trainer';
+import { Transformation, TrainerIntro, Bonuses } from '@/components/sections/transformation-trainer';
 import { WhatsappCommunity } from '@/components/sections/whatsapp-community';
 import { RegistrationForm } from '@/components/sections/registration-form';
 import { Faq, FinalCta, SiteFooter } from '@/components/sections/faq-final-footer';
@@ -35,7 +35,6 @@ export function LandingPage() {
       <WhoShouldAttend content={content.audience} />
       <Transformation content={content.transformation} />
       <TrainerIntro content={content.trainer} />
-      <Testimonials content={content.testimonials} />
       <Bonuses content={content.bonuses} />
       <WhatsappCommunity content={content.whatsappCommunity} />
       <RegistrationForm content={content.registration} locale={locale} />

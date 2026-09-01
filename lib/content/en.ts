@@ -18,7 +18,6 @@ export const en: SiteContent = {
       { label: 'Mode', value: 'Live Online Webinar' },
       { label: 'Language', value: 'Hindi + English' },
       { label: 'Level', value: 'Beginner Friendly' },
-      { label: 'Certificate/Bonus', value: '[If Available]' },
     ],
   },
   whyImportant: {
@@ -52,12 +51,9 @@ export const en: SiteContent = {
     heading: 'What Will You Learn in This Webinar?',
     items: [
       { title: 'Identify Valuable Skills', description: "How to identify practical and valuable skills for today's job market." },
-      { title: 'Choose the Right Skill', description: 'How to choose a skill based on your interests and goals.' },
       { title: 'Digital Skills', description: 'How digital skills can create career and work-from-home opportunities.' },
       { title: 'Communication & Confidence', description: 'How to build professional communication and confidence.' },
-      { title: 'Career Preparation', description: 'How to prepare yourself for jobs, interviews, freelancing, or entrepreneurship.' },
       { title: 'Turn Skills Into Opportunities', description: 'How to turn a learned skill into a practical opportunity.' },
-      { title: 'Create a Learning Path', description: 'How to create a realistic learning path instead of trying to learn everything at once.' },
     ],
   },
   framework: {
